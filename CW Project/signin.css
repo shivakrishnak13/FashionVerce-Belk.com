@@ -23,12 +23,18 @@ body{
     
 }
 #head>a{
-    
+    font-family: proxima-nova, sans-serif;
       color: white;
      margin-right: 10px;
      margin-top: 10px;
 }
 
+.totalnav{
+    position: fixed;
+    top: 0px;
+    left: 0%;
+    right: 0%;
+}
 #nav{
     padding-top: 8px;
     padding-bottom: 0px;
@@ -165,6 +171,7 @@ input:focus{
     box-shadow: rgba(0, 64, 67, 0.3) 0px 1px 0px 0px,
     rgba(60, 64, 67, 0.15) 0px 1px 0px 1px;
     padding-left:17px;
+    background-color: #FEFEFE;
 }
 
 .belownav>div{
@@ -214,184 +221,32 @@ input:focus{
     margin-top: 14%;
    margin-right: 5px;
 }
-.main{
-    margin-top: 20px;
-}
-.banner{
-   
-    width: 77.5%;
-   margin: auto;
-   cursor: pointer;
-}
-.banner>div:nth-child(2){
- margin-top: -5px;
-}
-.brands{
-    width: 80%;
-    margin: auto;
-    padding-left: 30px;
-    margin-top: 10px;
-    cursor:pointer;
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-}
-.offers{
-    cursor: pointer;
+.content{
+    padding-top: 150px;
     width: 79%;
+    
     margin: auto;
-   
-}
-.offers>img~img{
-   
-    margin-top: -4px;
     
 }
-.offers>img:nth-child(3){
-    margin-left: -4px;
-    
-}
-.offers>img:nth-child(4){
-    margin-left: -4px;
-    
-}
-.offers>img:nth-child(5){
-    margin-left: -4px;
-    
-}
-
-.offers>img:nth-child(7){
-    margin-left: -4px;
-    
-}
-.offers>img:nth-child(8){
-    margin-left: -4px;
-    
-}
-.offers>img:nth-child(9){
-    margin-left: -7px;
-    
-}
-.edition{
-    width: 79%;
-  cursor: pointer;
-   margin: auto;
-}
-.eligible{
-    width: 79%;
-  
-    margin: auto;
-}
-.new{
-    width: 79%;
-    margin: auto;
-    cursor: pointer;
-}
-
-.new>img:nth-child(1){
-   
-    margin-bottom: -3.993px;
-   margin-top: 20px;
- 
-}
-.season{
-    width: 79%;
-    margin: auto;
-    cursor: pointer;
-}
-.season img{
-    margin-top: 20px;
-    margin-left: 3px;
-}
-
-.card{
-    width: 79%;
-    margin: auto;
-    cursor: pointer;
-}
-.card img{
-    margin-top: 20px;
-    margin-left: 3px;
-}
-
-.heart{
-    width: 79%;
-    margin: auto;
-    cursor: pointer;
-}
-.heart img{
-    margin-top: 0px;
-    margin-left: 3px;
-}
-
-.category{
-    width: 80%;
-   display: grid;
-   grid-template-columns: repeat(6,1fr);
-    cursor: pointer;
-    margin: auto;
-}
-.category img{
-    margin-top: 30px;
-}
-
-.extra{
-    width: 79%;
-    margin: auto;
-    cursor: pointer;
-}
-.extra img:nth-child(2){
-    
-    margin-left: -4px;
-}
-
-.clearance{
-    width: 78%;
-    margin: auto;
-    cursor: pointer;
-}
-.clearance>img{
-    width: 100%;
-    margin-top: 20px;
-    border-radius: 20px;
-}
-
-.features{
-    width: 80%;
-    margin: auto;
-    cursor: pointer;
-}
-.features img{
-    margin-top: 20px;
-    margin-left: 10px;
-}
-.features>img:nth-child(2),.features>img:nth-child(3),.features>img:nth-child(4){
-    margin-left: -4px;
-} 
-.justforyou{
-    width: 80%;
-    margin: auto;
-}
-.showproducts{
-    border: 1px solid black;
-    
-}
-.justforyou{
+.head{
     font-family: Roboto, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #222222;
 }
-.scroll {
-    width: 150px;
-    font-family: Roboto, Arial, sans-serif;
-    display: flex;
+.head span{
+   margin-left: 15px;
 }
-.line2{
-    width: 100%;
-    border: 1px solid #DDDDDD;
-    margin-bottom: 10px;
+.head a{
+    text-decoration: none;
+    color: black;
+   
 }
-.scroll img{
-    border: 1px solid #DDDDDD;
-    width: 100%;
-}
-.scroll p b{
-color: red;
+.head a:hover{
+    border: 2px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
 }
