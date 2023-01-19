@@ -6,16 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fashverse.com - FashVerse® - Official Site</title>
     <link rel="icon" href="/title logo.png">
-    <link rel="stylesheet" href="home.css"/>
+    
+    <link rel="stylesheet" href="index.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     
 </head>
 <body>
+   
+   <div class="totalnav">
     <div id="head">
            <p>FREE shipping @ $49</p>
            <a href="#">Enable Acessbility</a>
     </div>
     <!-- Navbar -->
+   
+
+   
     <div id="nav">
         <div>
             <img src="/logo.png" alt="">
@@ -24,21 +30,44 @@
                 <i class="fa fa-search" aria-hidden="true"></i> 
              </div>
              <div class="line"></div>
-               <div class="navicons">
+               <div class="navicons" >
               <img src="/plus.png" alt="">
               <p>Belk Rewards+</p>
              </div> 
 
-             <div class="navicons">
+             <div class="navicons" id="couponspage">
                 <img src="/coupon.png" alt="">
                 <p>Coupons</p>
                </div> 
 
-               <div class="navicons">
+               <div onclick="dropdown()" class="navicons" id="account">
                 <img src="/account.png" alt="">
-                <p>My Account</p>
+                <p id="accountp" onclick="dropdown()">My Account</p>
+                <div class="megamenu" id="drop">
+                   <button id="signin">Sign In</button>
+                   <button id="signup">Create Account</button>
+                   <div class="order">
+                     <img src="/order.png" alt="">
+                     <p> Find My Order</p>
+                   </div>
+                   <div>
+                     <img src="/plus.png" alt="">
+                     <p> Belk Rewards+</p>
+                   </div>
+                   <div>
+                     <img src="/list.png" alt="">
+                     <p> Find a Wish List</p>
+                   </div>
+                   <div>
+                     <img src="/gift.png" alt="">
+                     <p> Find a Registry</p>
+                   </div>
+                </div>
                </div> 
-
+              
+               
+               
+               
                <div class="line"></div>
 
                <div class="bagicon">
@@ -72,7 +101,7 @@
                 <p>Find A Store</p></div>
             </div>
              </div>
-
+            </div>
              <div class="main">
                 <div class="banner">
                     <div><img src="https://belk.scene7.com/is/image/Belk/wk51_011623_hp_fh1?$DWP_PHOTO$" alt=""></div>
@@ -167,120 +196,126 @@
                      <img src="https://belk.scene7.com/is/image/Belk?layer=0&src=6203719_11724854_A_410&$DWP_PRODUCT_REC_DESKTOP$" alt="">
                      <p>Delsey St. Tropez Hardside Spinner Luggage</p>
                      <p> <b>$240.00 - $320.00</b> </p>
-                     <p> $480.00 - $640.00</p>
+                     <p> <del>$480.00 - $640.00</del> </p>
                   </div>
 
                   <div>
                      <img src="https://belk.scene7.com/is/image/Belk?layer=0&src=6203719_11724854_A_410&$DWP_PRODUCT_REC_DESKTOP$" alt="">
                      <p>Delsey St. Tropez Hardside Spinner Luggage</p>
                      <p> <b>$240.00 - $320.00</b> </p>
-                     <p> $480.00 - $640.00</p>
+                     <p> <del> $480.00 - $640.00</del></p>
                   </div>
 
                   <div>
                      <img src="https://belk.scene7.com/is/image/Belk?layer=0&src=6203719_11724854_A_410&$DWP_PRODUCT_REC_DESKTOP$" alt="">
                      <p>Delsey St. Tropez Hardside Spinner Luggage</p>
                      <p> <b>$240.00 - $320.00</b> </p>
-                     <p> $480.00 - $640.00</p>
+                     <p><del> $480.00 - $640.00</del></p>
                   </div>
 
                   <div>
                      <img src="https://belk.scene7.com/is/image/Belk?layer=0&src=6203719_11724854_A_410&$DWP_PRODUCT_REC_DESKTOP$" alt="">
                      <p>Delsey St. Tropez Hardside Spinner Luggage</p>
                      <p> <b>$240.00 - $320.00</b> </p>
-                     <p> $480.00 - $640.00</p>
+                     <p><del> $480.00 - $640.00</del></p>
                   </div>
                   
                   <div>
                      <img src="https://belk.scene7.com/is/image/Belk?layer=0&src=6203719_11724854_A_410&$DWP_PRODUCT_REC_DESKTOP$" alt="">
                      <p>Delsey St. Tropez Hardside Spinner Luggage</p>
                      <p> <b>$240.00 - $320.00</b> </p>
-                     <p> $480.00 - $640.00</p>
+                     <p> <del>$480.00 - $640.00</del></p>
                   </div>
 
                   <div>
                      <img src="https://belk.scene7.com/is/image/Belk?layer=0&src=6203719_11724854_A_410&$DWP_PRODUCT_REC_DESKTOP$" alt="">
                      <p>Delsey St. Tropez Hardside Spinner Luggage</p>
                      <p> <b>$240.00 - $320.00</b> </p>
-                     <p> $480.00 - $640.00</p>
+                     <p> <del>$480.00 - $640.00</del></p>
                   </div>
 
                   <div>
                      <img src="https://belk.scene7.com/is/image/Belk?layer=0&src=6203719_11724854_A_410&$DWP_PRODUCT_REC_DESKTOP$" alt="">
                      <p>Delsey St. Tropez Hardside Spinner Luggage</p>
                      <p> <b>$240.00 - $320.00</b> </p>
-                     <p> $480.00 - $640.00</p>
+                     <p> <del>$480.00 - $640.00</del></p>
                   </div>
 
                   <div>
                      <img src="https://belk.scene7.com/is/image/Belk?layer=0&src=6203719_11724854_A_410&$DWP_PRODUCT_REC_DESKTOP$" alt="">
                      <p>Delsey St. Tropez Hardside Spinner Luggage</p>
                      <p> <b>$240.00 - $320.00</b> </p>
-                     <p> $480.00 - $640.00</p>
+                     <p><del> $480.00 - $640.00</del></p>
                   </div>
 
                   <div>
                      <img src="https://belk.scene7.com/is/image/Belk?layer=0&src=6203719_11724854_A_410&$DWP_PRODUCT_REC_DESKTOP$" alt="">
                      <p>Delsey St. Tropez Hardside Spinner Luggage</p>
                      <p> <b>$240.00 - $320.00</b> </p>
-                     <p> $480.00 - $640.00</p>
+                     <p><del> $480.00 - $640.00</del></p>
                   </div>
 
                   <div>
                      <img src="https://belk.scene7.com/is/image/Belk?layer=0&src=6203719_11724854_A_410&$DWP_PRODUCT_REC_DESKTOP$" alt="">
                      <p>Delsey St. Tropez Hardside Spinner Luggage</p>
                      <p> <b>$240.00 - $320.00</b> </p>
-                     <p> $480.00 - $640.00</p>
+                     <p><del> $480.00 - $640.00</del></p>
                   </div>
 
                   <div>
                      <img src="https://belk.scene7.com/is/image/Belk?layer=0&src=6203719_11724854_A_410&$DWP_PRODUCT_REC_DESKTOP$" alt="">
                      <p>Delsey St. Tropez Hardside Spinner Luggage</p>
                      <p> <b>$240.00 - $320.00</b> </p>
-                     <p> $480.00 - $640.00</p>
+                     <p><del> $480.00 - $640.00</del></p>
                   </div>
 
                   <div>
                      <img src="https://belk.scene7.com/is/image/Belk?layer=0&src=6203719_11724854_A_410&$DWP_PRODUCT_REC_DESKTOP$" alt="">
                      <p>Delsey St. Tropez Hardside Spinner Luggage</p>
                      <p> <b>$240.00 - $320.00</b> </p>
-                     <p> $480.00 - $640.00</p>
+                     <p> <del>$480.00 - $640.00</del></p>
                   </div>
 
                   <div>
                      <img src="https://belk.scene7.com/is/image/Belk?layer=0&src=6203719_11724854_A_410&$DWP_PRODUCT_REC_DESKTOP$" alt="">
                      <p>Delsey St. Tropez Hardside Spinner Luggage</p>
                      <p> <b>$240.00 - $320.00</b> </p>
-                     <p> $480.00 - $640.00</p>
+                     <p><del> $480.00 - $640.00</del></p>
                   </div>
 
                   <div>
                      <img src="https://belk.scene7.com/is/image/Belk?layer=0&src=6203719_11724854_A_410&$DWP_PRODUCT_REC_DESKTOP$" alt="">
                      <p>Delsey St. Tropez Hardside Spinner Luggage</p>
                      <p> <b>$240.00 - $320.00</b> </p>
-                     <p> $480.00 - $640.00</p>
+                     <p><del>$480.00 - $640.00</del></p>
                   </div>
 
                   <div>
                      <img src="https://belk.scene7.com/is/image/Belk?layer=0&src=6203719_11724854_A_410&$DWP_PRODUCT_REC_DESKTOP$" alt="">
                      <p>Delsey St. Tropez Hardside Spinner Luggage</p>
                      <p> <b>$240.00 - $320.00</b> </p>
-                     <p> $480.00 - $640.00</p>
+                     <p><del> $480.00 - $640.00</del></p>
                   </div>
 
                   <div>
                      <img src="https://belk.scene7.com/is/image/Belk?layer=0&src=6203719_11724854_A_410&$DWP_PRODUCT_REC_DESKTOP$" alt="">
                      <p>Delsey St. Tropez Hardside Spinner Luggage</p>
                      <p> <b>$240.00 - $320.00</b> </p>
-                     <p> $480.00 - $640.00</p>
+                     <p><del> $480.00 - $640.00</del></p>
                   </div>
+                  
+                  
+
+
                </div>
 
-            </div>
-
+              </div>
+              
+              
                   <!-- footer -->
 
                   <div class="footer">
+                     <div class="footerchild">
                      <div>
                      <p>Customer Service</p>
                      <p>Contact Us</p>
@@ -298,9 +333,9 @@
                   <div>
                  <p>Belk Rewards+ Credit Card</p>
                  <div>
-                  <img src="" alt="">
-                  <p>Apply for a
-                     Belk Rewards+
+                  <img src="/Credit card.png" alt="">
+                  <p>Apply for a <br>
+                     Belk Rewards+ <br>
                      credit card</p>
                  </div>
                  <p>Pay My Bill</p>
@@ -319,34 +354,17 @@
                       <p>Store Events</p>
                    </div>
 
+                   <div>
+                     <p>Get the Belk App</p>
+                     <img src="/qr code.jpg" alt="">
+                     <img src="https://belk.scene7.com/is/image/Belk/footer-app-ios-badge-2x?&$DWP_ARTWORK$" alt="">
+                     <img src="https://belk.scene7.com/is/image/Belk/footer-app-android-badge-2x?&$DWP_ARTWORK$" alt="">
+                   </div>
+                  </div>
                   </div>
                   
-
-
-
-
-
-
-
-
-
-
-
-
-
-              
-             
-
-
-
-
-
-
-
-
-
-
-
+                  
 
             </body>
             </html>
+            <script src="index.js"></script>
