@@ -1,14 +1,4 @@
-let coupons = document.getElementById("couponspage");
 
-coupons.addEventListener("click", ()=>{
-    window.location.href="coupons.html"
-})
-
-
-
-function logo(){
-    window.location.assign( "index.html")
-}
 
 function dropdown(){
     document.getElementById("drop").classList.toggle("show");
@@ -27,9 +17,6 @@ window.onclick = function(e){
     }
 }
 
-let signin = document.getElementById("signin");
-
-signin.addEventListener("click", ()=>{
-    window.location.assign("signin.html")
-})
-
+function logo(){
+    window.location.assign( "index.html")
+}

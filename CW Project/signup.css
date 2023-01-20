@@ -318,115 +318,9 @@ input:focus{
     border-right: none;
 }
 
-.signinform{
-    width: 26%;
-    padding-top: 130px;
-    margin: auto;
-}
-
-input[type=email], input[type=password]{
-    width: 95%;
-    border: 0.5px solid black;
-    font-family: Roboto, Arial, sans-serif;
-    height: 47px;
-    border-radius: 3px;
-    padding-left: 15px;
-}
-form>a{
-    color: #097BC0;
-    padding-left: 67%;
-    font-family: Roboto, Arial, sans-serif;
-}
-.signinform>h3{
-    font-family: Roboto, Arial, sans-serif;
-    font-weight: 400;
-    font-size: 20px;
-    font-style: normal;
-}
-form>button{
-    border: none;
-    width: 96%;
-    display: inline-block;
-    margin-top: 20px;
-   margin-bottom: 15px;
-    font-family: Roboto, Arial, sans-serif;
-    background-color: #097BC0;
-    height: 48px;
-    border-radius: 6px;
-    color: white;
-    margin-left: 13px;
-    font-size: 17px;
-}
-form>button:hover{
-    background-color: #0f5b8a;
-}
-.switch{
-  
-    font-family: Roboto, Arial, sans-serif;
-    font-size: 10px;
-}
-input[type=checkbox]{
-    margin-left: 45%;
-   
-}
-.signinform>p{
-    color: black;
-   font-size: 12px;
-   font-family:  Roboto, Arial, sans-serif;
-   text-align: center;
-   margin-top: 20px;
-}
-.signinform>p>u{
-    color: #1979BD;
-}
-label{
-    font-family: Roboto, Arial, sans-serif;
-    font-size: 14px;  
-    margin-left:12px ;
-   
-}
-.or>div{
-    width: 40%;
-    border: 0.8px solid #767676;
-    height: 0;
-}
-.or{
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-}
-.or >p{
-    margin-top: -10px;
-    font-family: Roboto, Arial, sans-serif;
-    color: #767676;
-    font-size: 14px;
-    margin-left: 10px;
-}
-.or>div:nth-child(1){
-    margin-right: 6px;
-}
-.or>div:nth-child(3){
-   margin-left: 20px;
-}
-.createbutton{
-    width: 95%;
-    height: 47px;
-    margin-left: 13px;
-    background-color: white;
-    border: 1px solid #097BC0;
-    color: #097BC0;
-    font-family: Roboto, Arial, sans-serif;
-    font-size: 20px;
-    font-weight: bolder;
-    border-radius: 5px;
-    margin-top: 10px;
-}
-.createbutton:hover{
-    border: 2px solid #097BC0;
-}
 
 .footer{
-    margin-top: 70px;
+    margin-top: 40px;
     width: 100%;
     border: 1px solid #767676;
 }
@@ -503,4 +397,79 @@ label{
 .footerchild div:nth-child(4) img{
     width: 150px;
     padding-top: 20px;
+}
+
+.signupform{
+    width: 30%;
+    padding-top: 130px;
+    margin: auto;
+    font-family: Roboto, Arial, sans-serif;
+}
+.signupform>form>h3{
+  
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 400;
+  font-weight: lighter;
+  color: #222222;
+  font-style: normal;
+
+  
+}
+form>p{
+    
+    color: #020202;
+    font-size: 16px;
+    font-weight: bolder;
+   font-weight: 700;
+
+}
+input[type=firstname],input[type=lastname],input[type=tel],input[type=email],input[type=password]{
+    border: 0.7px solid black;
+    width: 80%;
+    height: 47px;
+    padding-left: 20px;
+}
+input[type=lastname],input[type=email]{
+    margin: 10px;
+}
+form>button{
+    width: 65%;
+    height: 46px;
+    margin-left: 70px;
+    margin-top: 20px;
+   
+    background-color: #1979BD;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bolder;
+    font-size: 17px;
+}
+.confirmpass{
+    margin-top: 10px;
+}
+
+.terms>p{
+    font-size: 12px;
+    text-align: center;
+     
+}
+.terms>p>u{
+    color: #1979BD;
+}
+.terms>p:nth-child(2){
+    margin-top: -10px;
+}
+.createline{
+    width: 90%;
+    border: 0.7px solid black;
+    margin-left: 10px;
+    margin-top: 40px;
+}
+.signupform>div>p{
+    text-align: center;
+}
+.signupform>div>p>u{
+    color: #1979BD;
 }

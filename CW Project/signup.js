@@ -33,3 +33,6 @@ signin.addEventListener("click", ()=>{
     window.location.assign("signin.html")
 })
 
+function signingo(){
+    window.location.assign( "signin.html")
+}

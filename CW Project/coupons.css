@@ -34,13 +34,80 @@ body{
     top: 0px;
     left: 0%;
     right: 0%;
+   
+}
+.megamenu{
+    display: block;
+    display: none;
+    position: absolute;
+    width: 14%;
+    height: 320px;
+    top: 100%;
+    overflow: auto;
+  z-index: 1;
+   background-color: white;
+    left: 75%;
+    border: 1px solid black;
+}
+.show {display: block;}
+
+.megamenu>button{
+    width: 90%;
+    font-family: Roboto, Arial, sans-serif;
+    font-size : 20px;
+    height: 45px;
+   margin-left: 5%;
+   margin-top: 10px;
+}
+.megamenu>button:nth-child(1){
+    background-color: #1979BD;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+.megamenu>button:nth-child(2){
+    background-color: white;
+    color: #1979BD;
+    border-color: #1979BD;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.megamenu>button:nth-child(1):hover{
+    background-color:#0f5b8a;
+}
+.megamenu>button:nth-child(2):hover{
+    color: #0f5b8a;
+    border-color: #0f5b8a;
+}
+.megamenu>div:hover{
+    width: 80%;
+    background-color: #EFEBE9;
+}
+
+.megamenu>div>img{
+    width: 20px;
+    height: 20px;
+    padding-top: 13px;
+}
+.megamenu>div{
+    display: flex;
+   margin-left: 15px;
+   font-family:  Roboto, Arial, sans-serif;
+   font-size: 14px;
+}
+.megamenu>div>p{
+    padding-left: 10px;
+}
+.order{
+    margin-top: 15px;
 }
 #nav{
     padding-top: 8px;
     padding-bottom: 0px;
     width: 100%;
     background-color: rgb(245,245,245);
-    
+    position: relative;
+    display: inline-block;
 
 }
 #nav>div{

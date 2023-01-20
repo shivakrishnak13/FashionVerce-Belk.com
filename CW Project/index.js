@@ -13,8 +13,8 @@ window.onclick = function(e){
        var i;
         for(let i=0;i< Dropdowns.length;i++){
             var Opendrop = Dropdowns[i];
-            if(Opendrop.classList.contains("show")){
-                Opendrop.classList.remove("show");
+            if(Opendrop.classList.contains('show')){
+                Opendrop.classList.remove('show');
 
             }
         }
@@ -26,4 +26,11 @@ let signin = document.getElementById("signin");
 signin.addEventListener("click", ()=>{
     window.location.href="signin.html"
 })
+
+let signup = document.getElementById("signup");
+
+signup.addEventListener("click", ()=>{
+    window.location.href="signup.html"
+})
+
 

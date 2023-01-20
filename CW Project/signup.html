@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign In</title>
-    <link rel="stylesheet" href="signin.css">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="signup.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <script src="signin.js"></script>
+    <script src="signup.js"></script>
 
     <div class="totalnav">
         <div id="head">
@@ -101,30 +101,24 @@
                  </div>
                 </div>
                 <!-- content -->
-                 <div class="signinform">
-                    <h3>My Account</h3>
+                 <div class="signupform">
                     <form >
+                        <h3>Create Account</h3>
+                        <p>Personal Information</p>
+                        <input type="firstname" placeholder="First Name">
+                        <input type="lastname" placeholder="Last Name">
+                        <p>Contact Information</p>
+                        <input type="tel" placeholder="Phone Number (Optional)" pattern="[0-9]{10}" required>
                         <input type="email" placeholder="Email">
-                        <a href="#">Forgot Password?</a>
-                        <input type="password" placeholder="Password">
-                        <button type="submit" > <b>Sign in</b>  </button>
-                        <label> <b>Keep me signed in -</b> 
-                            Uncheck if using a public device
-                           <input type="checkbox" checked="checked"> 
-                        </label>
-
+                        <p>Security</p>
+                        <input type="password" placeholder="Password (6-20 Characters)">
+                        <input type="Password" placeholder="Confirm Password" class="confirmpass">
+                        <button type="submit">Create Account</button>
+                        <div class="terms"><p>By placing your order, you agree to Belk's</p> <p><u>Privacy Policy</u>  & <u>Terms of Use.</u> </p> </div>
                     </form>
-                    <p>By signing into your account, you agree <br> to Belk's <u> Privacy Policy </u> & <u>Terms of Use.</u> </p>
-
-                    <div class="or">
-                      <div></div>
-                      <p>Or</p>
-                      <div></div>
-                    </div>
-
-                    <button class="createbutton">Create Account</button>
+                    <div class="createline"></div>
+                    <div><p>Have an account? <u onclick="signingo()">Sign In</u></p></div>
                  </div>
-                
                  <!-- <footer></footer> -->
                  <div class="footer">
                   <div class="footerchild">
