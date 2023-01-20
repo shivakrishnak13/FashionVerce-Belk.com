@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
+    <script src="coupons.js"></script>
     <div class="totalnav">
         <div id="head">
                <p>FREE shipping @ $49</p>
@@ -20,27 +21,50 @@
        
         <div id="nav">
             <div>
-                <img  src="/logo.png" alt="">
+                <img src="/logo.png" alt="" id="logoimg" onclick="logo()">
                  <div class="box">
                     <input type="text" placeholder="What can we help you find ? ">
                     <i class="fa fa-search" aria-hidden="true"></i> 
                  </div>
                  <div class="line"></div>
-                   <div class="navicons">
+                   <div class="navicons" >
                   <img src="/plus.png" alt="">
                   <p>Belk Rewards+</p>
                  </div> 
     
-                 <div class="navicons" >
+                 <div class="navicons" id="couponspage">
                     <img src="/coupon.png" alt="">
                     <p>Coupons</p>
                    </div> 
     
-                   <div class="navicons">
-                    <img src="/account.png" alt="">
-                    <p>My Account</p>
+                   <div class="navicons" id="account">
+                    <img src="/account.png" alt="" onclick="dropdown()">
+                    <p id="accountp" onclick="dropdown()">My Account</p>
+                    <div class="megamenu" id="drop">
+                       <button id="signin">Sign In</button>
+                       <button id="signup">Create Account</button>
+                       <div class="order">
+                         <img src="/order.png" alt="">
+                         <p> Find My Order</p>
+                       </div>
+                       <div>
+                         <img src="/plus.png" alt="">
+                         <p> Belk Rewards+</p>
+                       </div>
+                       <div>
+                         <img src="/list.png" alt="">
+                         <p> Find a Wish List</p>
+                       </div>
+                       <div>
+                         <img src="/gift.png" alt="">
+                         <p> Find a Registry</p>
+                       </div>
+                    </div>
                    </div> 
-    
+                  
+                   
+                   
+                   
                    <div class="line"></div>
     
                    <div class="bagicon">
@@ -75,7 +99,6 @@
                 </div>
                  </div>
                 </div>
-
                 <!-- content -->
 
                 <div class="content">
