@@ -1,6 +1,6 @@
 let coupons = document.getElementById("couponspage");
 
-coupons.addEventListener("click", ()=>{
+coupons.addEventListener("click", (r)=>{
     window.location.href="coupons.html"
 })
 
@@ -36,3 +36,34 @@ signin.addEventListener("click", ()=>{
 function signingo(){
     window.location.assign( "signin.html")
 }
+
+
+let form = document.getElementById("form");
+
+let fname = document.getElementById("fname");
+let lname = document.getElementById("lname");
+let phnnunber = document.getElementById("phnnumber");
+let email = document.getElementById("email");
+let password = document.getElementById("password");
+
+let signupbtn = document.getElementById("createbtn");
+
+let Lsdata = JSON.parse(localStorage.getItem("details")) || [];
+
+form.addEventListener("submit",(e) =>{
+
+ e.preventDefault();
+
+ let obj={
+    name : fname.value,
+    number : phnnunber.value,
+    emailid : email.value,
+    passwordid : password.value,
+ }
+ console.log(obj)
+  Lsdata.push(obj);
+
+  localStorage.setItem("details" , JSON.stringify(Lsdata));
+  window.location.href="index2.html"
+
+})

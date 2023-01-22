@@ -36,12 +36,27 @@ body{
     right: 0%;
    
 }
+#drop>.waiting{
+   
+    display: block;
+    text-shadow: #d5d515;
+ }
+
+ #drop>.waiting>p:nth-child(2){
+    margin-top: -8px;
+    
+ }
+ #drop>.waiting:hover{
+    visibility: hidden;
+    
+ }
+
 .megamenu{
     display: block;
     display: none;
     position: absolute;
     width: 14%;
-    height: 320px;
+    height: 350px;
     top: 100%;
     overflow: auto;
   z-index: 1;
@@ -65,26 +80,17 @@ body{
     color: white;
     border: none;
     border-radius: 10px;
+    margin-top: 20px;
 }
 .megamenu>button:nth-child(1):hover{
     background-color:#0f5b8a;
 }
-.megamenu>button:nth-child(2):hover{
-    color: #0f5b8a;
-    border-color: #0f5b8a;
-}
+
 .megamenu>div:hover{
     width: 80%;
     background-color: #EFEBE9;
 }
 
-.megamenu>button:nth-child(2){
-    background-color: white;
-    color: #1979BD;
-    border-color: #1979BD;
-    border-radius: 10px;
-    margin-top: 20px;
-}
 .megamenu>div>img{
     width: 20px;
     height: 20px;
@@ -305,6 +311,8 @@ input:focus{
     font-size: 20px;
 }
 
+
+
 .womendrop:hover .womencontent {
     visibility: visible;
     opacity: 1;
@@ -394,12 +402,36 @@ input:focus{
 .belownav>div>div:nth-child(13){
     color: red;
 }
+
 .belownav>div>div:nth-child(14){
+    margin-left: 70px;
+   
+}
+.belownav>div>div:nth-child(14):hover{
+    border: none;
+}
+/* user */
+
+
+.user{
     display: flex;
-  margin-left: 27%;
     
 }
-.belownav>div>div:nth-child(14)>img{
+.user>img{
+    width: 25px;
+    height: 25px;
+    margin-top: 8px;
+}
+.user>h3{
+    margin-left: 5px;
+    margin-top: 12px;
+}
+.belownav>div>div:nth-child(15){
+    display: flex;
+    padding-left: 100px;
+}
+
+.belownav>div>div:nth-child(15)>img{
     height: 16px;
     width: 16px;
     margin-top: 14%;
