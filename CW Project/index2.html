@@ -7,7 +7,7 @@
     <title>Fashverse.com - FashVerse® - Official Site</title>
     <link rel="icon" href="/title logo.png">
     
-    <link rel="stylesheet" href="index.css"/>
+    <link rel="stylesheet" href="index2.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     
 </head>
@@ -41,11 +41,10 @@
                </div> 
 
                <div onclick="dropdown()" class="navicons" id="account">
-                <img src="/account.png" alt="">
-                <p id="accountp" >My Account</p>
+                <img src="/account.png" alt="" onclick="dropdown()">
+                <p id="accountp" onclick="dropdown()">My Account</p>
                 <div class="megamenu" id="drop">
-                   <button id="signin">Sign In</button>
-                   <button id="signup">Create Account</button>
+                   <button id="signin">Sign out</button>
                    <div class="order">
                      <img src="/order.png" alt="">
                      <p> Find My Order</p>
@@ -61,6 +60,10 @@
                    <div>
                      <img src="/gift.png" alt="">
                      <p> Find a Registry</p>
+                   </div>
+                   <div class="waiting">
+                     <p id="username"></p>
+                     <p>Your Shopping Cart Waiting <br> For You...</p>
                    </div>
                 </div>
                </div> 
@@ -919,6 +922,10 @@
                 </div>
                
                </div>
+               <div class="user">
+                <img src="/User img.png" alt="">
+                <h3 id="mainusername">Hai Hello</h3>
+               </div>
                 <div><img src="/store.png" alt="">
                 <p>Find A Store</p></div>
             </div>
@@ -1135,4 +1142,4 @@
 
             </body>
             </html>
-            <script src="index.js"></script>
+            <script src="index2.js"></script>
