@@ -234,11 +234,12 @@ input:focus{
     font-size: 14px;
 }
 .belownav{
-    width: 100%;
+    width: 110%;
     box-shadow: rgba(0, 64, 67, 0.3) 0px 1px 0px 0px,
     rgba(60, 64, 67, 0.15) 0px 1px 0px 1px;
     padding-left:17px;
     background-color: #FEFEFE;
+    margin-top: -6px;
 }
 
 .belownav>div{

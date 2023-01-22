@@ -33,4 +33,10 @@ signup.addEventListener("click", ()=>{
     window.location.href="signup.html"
 })
 
+let prod = document.getElementById("prodshow");
+
+prod.addEventListener("click",() =>{
+    window.location.assign("productspage.html")
+})
+
 

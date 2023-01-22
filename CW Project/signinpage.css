@@ -411,9 +411,7 @@ input:focus{
     border: none;
 }
 /* user */
-#mainusername{
-    padding-right: 50px;
-}
+
 
 .user{
     display: flex;

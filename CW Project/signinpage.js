@@ -30,23 +30,23 @@ signin.addEventListener("click", ()=>{
 let names = localStorage.getItem("usern")||null;
 
 
-let Data = JSON.parse(localStorage.getItem("details")) || [];
+
 
 let namedis = document.getElementById("username");
 let mainname = document.getElementById("mainusername")
 
 
-    Data.forEach(element => {
+    
     
 
-        namedis.textContent = element.name.toUpperCase()+",";
-        mainname.textContent = "Hello,"+" "+ element.name.toUpperCase();
-        });
-
+        namedis.textContent = names.toUpperCase()+",";
+        mainname.textContent = "Hello,"+" "+ names.toUpperCase();
+     
+    
         let prod = document.getElementById("prodshow");
 
-prod.addEventListener("click",() =>{
-    window.location.assign("productspage.html")
-})
-
-
+        prod.addEventListener("click",() =>{
+            window.location.assign("productspage.html")
+        })
+        
+        

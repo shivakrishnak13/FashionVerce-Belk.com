@@ -26,6 +26,11 @@ window.onclick = function(e){
         }
     }
 }
+let signup = document.getElementById("signup");
+signup.addEventListener("click", ()=>{
+         window.location.assign("signup.html")
+     })
+
 
 let signin = document.getElementById("signin");
 
@@ -52,7 +57,7 @@ for(let i=0;i<data.length;i++){
         let username = data[i].name;
        console.log(username)
         localStorage.setItem("usern", username);
-        window.location.href="index2.html"
+        window.location.href="signinpage.html"
 
     }   
     
